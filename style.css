@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman';
+  background-image: url("wbbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333;
+}
+.hero{
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.name{
+    color: #333;
+    font-style: italic;
+}
+p{
+    margin-top: 0;
+    font-size: 1.0rem;
+    max-width: 550px;
+}
+.cta-button{
+    color: 	#333;
+    text-decoration: none;
+    font-style: italic;
+    border-bottom: 1px solid transparent;
+    transition: all 1s ease;
+}
+.cta-button:hover {
+  border-bottom: 1px solid #333;
+}
+.introbox{
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    max-width: 400px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+.introbox:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.598);
+}
+#about {
+  width: 50vw;
+  margin: 60px auto 6vw;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Times  New Roman';
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.598);
+  backdrop-filter: blur(5px);
+}
+.styl{
+    font-style: italic;
+    font-weight: bold;
+}
+#about a{
+    color:#333;
+    text-decoration: underline;
+}
+footer{
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links a{
+    color: black;
+    font-size: 40px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+.social-links a:hover {
+  transform: scale(1.2);
+  color: gray;
+}
